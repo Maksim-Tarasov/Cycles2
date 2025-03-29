@@ -19,9 +19,8 @@ public class Main {
         while (savings < target) {
             months++;
             savings += monthlyContribution;
+            System.out.println("Месяц " + months + ", сумма накоплений равна " + savings + " рублей");
         }
-
-        System.out.println("Месяц " + months + ", сумма накоплений равна " + savings + " рублей");
     }
 
     public static void secondTask() {
@@ -91,7 +90,7 @@ public class Main {
     }
 
     public static void seventhTask() {
-        int currentDay = 7 + 1;
+        int currentDay = 5 + 1;
         while (currentDay < 31) {
             System.out.println("Сегодня пятница," + currentDay + "-е число. Необходимо подготовить отчет");
             currentDay += 7;
